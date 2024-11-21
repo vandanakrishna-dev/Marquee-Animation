@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+<title>Marquee Animation</title>
+<style>
+    body{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+</style>
+</head>
+<body background="bg.jpg">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <marquee direction="right" behaviour="loop" onmouseover="stop();" onmouseout="start();" scrollamount="10">
+        <img src="Dog.gif" width="22%">&emsp;&emsp;&emsp;&emsp;
+        <img src="Cat.gif" width="11%">&emsp;&emsp;
+        <img src="Rat.gif" width="3%">&emsp;
+    </marquee>
+</body>
